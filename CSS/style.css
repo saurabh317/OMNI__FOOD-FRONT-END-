@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  transition: all 0.3s linear;
 }
 
 html {
@@ -252,6 +253,7 @@ body {
   line-height: 1.8;
 
 }
+
 /**************************************/
 /**meals section styling**/
 /**************************************/
@@ -295,6 +297,13 @@ body {
 .tag-paleo{
   background-color:#ffd43b;
 }
+/* 
+.shadow-hover{
+  position: relative;
+  border: 2px solid black;
+  height: inherit;
+  background-color: red;
+} */
 
 .meal-title{
   font-size: 2.4rem;
@@ -332,28 +341,6 @@ strong{
   font-weight: 500;
 }
 
-.Lists{
-  list-style: none ;
-  display: flex;
-  flex-direction: column;
-  gap: 1.6rem;
-  
-
-}
-
-.list-items{
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  font-size: 1.8rem;
-} 
-
-.list-icon{
-  width: 3rem;
-  height: 3rem;
-  color: #cf711f;
-}
-
 .all-recipes{
   text-align: center;
   font-size:1.8rem ;
@@ -374,4 +361,173 @@ strong{
   border-bottom: 1px solid transparent;
 
 }
+/**************************************/
+/**testimonials section styling**/
+/**************************************/
+.section-testimonials{
+  display: grid;
+  grid-template-columns: 55fr 45fr;
+  align-items: center;
+  background-color:  #fdf2e9;
+}
+
+.testimonials{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 4.8rem;
+  column-gap: 8rem ;
+}
+
+.testimonials-container{
+  padding: 9.6rem;
+
+}
+
+.testimonial-img{
+  border-radius: 50%;
+  width: 6.4rem;
+  margin-bottom: 1.2rem;
+}
+
+
+.testimonial-text{
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 1.6rem;
+  
+}
+
+.testimonial-name{
+  font-size: 1.6rem;
+  color: #6f6f6f;
+}
+
+.galary{
+  display: grid;
+  grid-template-columns:repeat(3,1fr);
+  gap: 1.2rem;
+  padding: 1.2rem;
+}
+
+.galary-items{
+  overflow: hidden;
+}
+
+.galary-items img{
+  opacity: 0.9;
+  width:100%;
+  display: block;
+  transition: all 0.4s ease-in-out;
+}
+
+.galary-items img:hover{
+  transform: scale(1.1);
+}
+
+/**************************************/
+/**pricing section styling**/
+/**************************************/
+
+.section-pricing{
+  padding: 9.6rem 0;
+}
+
+.pricing-plan{
+  background-color:#fae5d3;
+  border-radius: 11px;
+  padding: 4.8rem;
+  width: 75%;
+
+}
+
+.pricing-plan-starter{
+  justify-self: end;
+}
+
+.plan-head{
+  text-align: center;
+}
+
+.pricing-btn{
+  background-color:#e67e22;
+  padding: 1.6rem 2.4rem;
+  border-radius: 9px;
+  font-size: 2rem;
+  font-weight: 600;
+  border: transparent;
+}
+
+.pricing-btn a{
+  color: white;
+ 
+}
+
+.pla-name{
+  color: #cf711f;
+  font-weight: 600;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.75;
+  margin-bottom: 3.2rem;
+
+}
+
+.plan-price{
+  color: #333;
+  font-size: 6.2rem;
+  font-weight: 600;
+  margin-bottom: 1.6rem;
+}
+
+.plan-price span{
+  font-size: 3rem;
+  font-weight: 500;
+  margin-right: 0.8rem;
+}
+
+.plan-text{
+  margin-bottom: 4.2rem;
+  color: #333;
+  font-size: 1.6rem;
+  line-height: 1.6;
+
+} 
+
+ .plan-sign-up{
+  text-align: center;
+  margin-top: 4.8rem;
+}
+
+/* .meal {
+  position: relative;
+}
+
+.shadow-hover {
+  position: absolute;
+  height: inherit;
+  width: 100%;
+  top: -100%;
+  left: 0;
+  background-color: black;
+}
+
+.meal:hover .shadow-hover {
+ top: 0;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

@@ -82,3 +82,26 @@ a:link {
   .margin-bottom-md{
     margin-bottom:4.8rem !important ;
   }
+
+  
+.Lists{
+  list-style: none ;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  
+
+}
+
+.list-items{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.8rem;
+} 
+
+.list-icon{
+  width: 3rem;
+  height: 3rem;
+  color: #cf711f;
+}
