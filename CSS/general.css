@@ -98,10 +98,15 @@ a:link {
   align-items: center;
   gap: 1rem;
   font-size: 1.8rem;
+  
 } 
 
 .list-icon{
   width: 3rem;
   height: 3rem;
   color: #cf711f;
+}
+
+.add-margin{
+  margin: 1rem;
 }
